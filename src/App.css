@@ -7,7 +7,7 @@
     padding-bottom: 25px;
 }
 .display {
-    margin-top: 25px;
+    margin: 0 auto 20px;
     height: 100px;
     width: 450px;
     border-radius: 50px;
@@ -19,4 +19,44 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
-  }
+}
+.logo-container {
+    margin: 5%;
+}
+.App {
+    display: flex;
+    justify-content: center;
+}
+.leftSide {
+    display: flex;
+    flex-direction: column;
+}
+.general_button {
+    border: none;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    box-shadow: 0px 5px 0px black;
+    font-size: 2.5rem;
+    color: white;
+    margin: 10px 23px;
+    outline: none;
+}
+.special_button {
+    background-color: #2160B0;
+}
+.operator_button {
+    background-color: #3DB3E4;
+}
+.number_button {
+    background-color: #123B78;
+}
+
+.opButtonContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
