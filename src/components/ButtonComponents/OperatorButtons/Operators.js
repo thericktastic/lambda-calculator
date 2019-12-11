@@ -14,8 +14,8 @@ const Operators = () => {
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass
        it any props needed by the child component*/      
-       operatorState.map((button, index) => (
-      <OperatorButton key={index.value} button={button} />
+       operatorState.map((operator) => (
+      <OperatorButton key={operator.value} button={operator.char} />
       ))}
     </div>
   );
